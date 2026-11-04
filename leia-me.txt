@@ -1,0 +1,25 @@
+COMO USAR
+0. Rode Install.bat como administrador (ele adiciona esta pasta
+   nas Exclusões do Windows Security para o antivirus nao apagar o .exe).
+1. Abra o Minecraft 1.8.9 (Lunar ou Forge).
+2. Duplo-clique em Vape421Injector.exe, escolha o javaw.exe, Enter.
+3. No jogo, aperte RShift para abrir o menu.
+
+Se o Windows apagar o .exe: Windows Security > Exclusões > adicione esta pasta,
+depois restaure o arquivo no Histórico de proteção. Rode como administrador.
+
+CONFIG (.json)
+Onde fica: %APPDATA%\Vape421\vape421-config.json
+Para abrir: aperte Win+R, cole %APPDATA%\Vape421 e Enter.
+(A pasta AppData e oculta: nao adianta procurar no Explorer sem digitar o caminho.
+A pasta e criada sozinha na primeira vez que voce injeta o client.)
+
+A config salva sozinha no arquivo acima alguns segundos depois de qualquer
+mudanca (ligar/desligar modulo, mudar valor, trocar de perfil). Nao precisa
+fazer nada: ao abrir de novo, ela carrega sozinha.
+Para resetar, apague o vape421-config.json com o jogo fechado.
+
+EXPORTAR / IMPORTAR (outro PC)
+Para levar sua config: rode Exportar-Config.bat (gera Vape421-config.json
+na Area de Trabalho). No outro PC, coloque o arquivo na Area de Trabalho,
+FECHE o jogo e rode Importar-Config.bat.
